@@ -31,7 +31,7 @@ $bannav = Array('HTTrack','httrack','WebCopier','HTTPClient','websitecopier','we
 foreach ($bannav as $banned) {
     $comparaison = strstr($navigateur, $banned);
     if($comparaison!==false) {
-	    $write_this = 'Cet enfant de salope a essayer de te voler : ' . get_ip(); // Le texte que vous voulez avoir dans votre fichier stop.txt
+	    $write_this = 'ip du voleur :' . get_ip(); // Le texte que vous voulez avoir dans votre fichier stop.txt
 		$tentative++;
 	}
 }
@@ -40,7 +40,7 @@ if($tentative > 0){
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 
-	echo "fuck you"; // Le texte que vous voulez que le voleur recevra dans les fichier télécharger
+	echo "Mon site est protéger contre le vole bien essayer :D"; // Le texte que vous voulez que le voleur recevra dans les fichier télécharger
 	
 	die();
 }
