@@ -1,14 +1,14 @@
 <?php
 
-/////////////////////////////////////////////////////////////////////////
-//
-// Dev : NuggaN85
-// Website : https://scrinder.com
-// Contact : contact@scrinder.com
-// Twitter : @NuggaN85 
-// Copyright © NuggaN85. All rights reserved.
-// 
-/////////////////////////////////////////////////////////////////////////
+/*!
+ * antiwebcopier v1.0
+ * Dev: NuggaN85
+ * Twitter: @NuggaN85
+ * Copyright 2015 © NuggaN85. All rights reserved.
+ * Licensed under CC BY 3.0
+ * http://creativecommons.org/licenses/by/3.0/
+ * https://www.scrinder.com
+ */
 
 $write_this = "";
 $tentative = 0;
