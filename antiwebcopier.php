@@ -40,7 +40,7 @@ if($tentative > 0){
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 
-	echo "Mon site est protéger contre le vole bien essayer :D"; // Le texte que vous voulez que le voleur recevra dans les fichier télécharger
+	echo utf8_decode( 'Mon site est protéger contre le vole bien essayer :D' ); // Le texte que vous voulez que le voleur recevra dans les fichier télécharger
 	
 	die();
 }
