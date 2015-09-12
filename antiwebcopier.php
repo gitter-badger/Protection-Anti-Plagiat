@@ -31,12 +31,12 @@ $bannav = Array('HTTrack','httrack','WebCopier','HTTPClient','websitecopier','we
 foreach ($bannav as $banned) {
     $comparaison = strstr($navigateur, $banned);
     if($comparaison!==false) {
-	    $write_this = 'ip du voleur :' . get_ip(); // Le texte que vous voulez avoir dans votre fichier stop.txt
+	    $write_this = 'ip du voleur :' . get_ip(); // Le texte que vous voulez avoir dans votre fichier antiwebcopier.txt
 		$tentative++;
 	}
 }
 if($tentative > 0){
-	$write_here = fopen("antiwebcopier.txt", "a"); // Fichier txt a mettre a la racine avec le stop.php
+	$write_here = fopen("antiwebcopier.txt", "a"); // Fichier txt a mettre a la racine avec le antiwebcopier.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 
