@@ -6,7 +6,7 @@ Pour les fichiers en .PHP, inclure ceci " include('antiwebcopier.php'); " juste 
 
 Pour les fichiers .HTML, mettre ceci " <?php include('antiwebcopier.php'); ?> " avant la balise " <!DOCTYPE html> dans les pages souhaitées de votre site web.
 
-Mettre le fichier " antiwebcopier.php " et " antiwebcopier.txt " à la racine de votre site web. Exemple de dossier : (public_html ou www)
+Mettre le fichier " antiwebcopier.php " et " antiwebcopier.txt " à la racine de votre site web. Exemple de dossier : (public_html)
 
 Peut être utilisé à plusieurs reprises:
 
