@@ -36,7 +36,7 @@ foreach ($bannav as $banned) {
 	}
 }
 if($tentative > 0){
-	$write_here = fopen("antiwebcopier.txt", "a"); // Fichier txt a mettre a la racine avec le antiwebcopier.php
+	$write_here = fopen("antiwebcopier.cnx", "a"); // Fichier cnx auto inclus a la racine avec le antiwebcopier.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 
