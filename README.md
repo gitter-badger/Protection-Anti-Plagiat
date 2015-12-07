@@ -6,7 +6,7 @@ Pour les fichiers en .PHP, inclure ceci " include('antiwebcopier.php'); " juste 
 
 Pour les fichiers .HTML, mettre ceci " <?php include('antiwebcopier.php'); ?> " avant la balise " <!DOCTYPE html> dans les pages souhaitées de votre site web.
 
-Mettre le fichier "antiwebcopier.php" à la racine de votre site web. Exemple de dossier : (public_html) ou (www), un autre fichier "antiwebcopier.txt" va s'inclure automatiquement a la racine avec votre fichier "antiwebcopier.php" celui ci va imprimer tout les fraudeur qui tente d'aspirer votre site web.
+Mettre le fichier "antiwebcopier.php" à la racine de votre site web. Exemple de dossier : (public_html) ou (www), un autre fichier "antiwebcopier.cnx" va s'inclure automatiquement a la racine avec votre fichier "antiwebcopier.php" celui ci va imprimer tout les fraudeur qui tente d'aspirer votre site web.
 
 Peut être utilisé à plusieurs reprises:
 
