@@ -20,6 +20,6 @@ Y compris à partir de la racine:
 
 <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "../../antiwebcopier.php";
+   $path .= "../../protectionantiplagiat.php";
    include_once($path);
 ?>
