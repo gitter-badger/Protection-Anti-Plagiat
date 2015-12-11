@@ -23,3 +23,5 @@ Y compris à partir de la racine:
    $path .= "../../protectionantiplagiat.php";
    include_once($path);
 ?>
+
+<img src="http://image.noelshack.com/fichiers/2015/50/1449871470-vtryvtr.png">
