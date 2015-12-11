@@ -1,6 +1,6 @@
 # Protection Anti Plagiat
 
-<img src="http://www.lagardedenuit.com/wiki/images/4/41/Blason-garderoyale-2014-v01-256px.png"> 
+<img src="http://image.noelshack.com/fichiers/2015/50/1449871072-sheild-icon.png"> 
 
 Ce script vous permettra de protéger votre site web contre les attaques d'aspirateurs de site web our éviter les plagiats (comme le logiciel le plus connus qui est HTTrack).
 
