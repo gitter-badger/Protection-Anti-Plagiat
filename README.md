@@ -1,5 +1,7 @@
 # Protection Anti Plagiat
 
+<img src="http://www.lagardedenuit.com/wiki/images/4/41/Blason-garderoyale-2014-v01-256px.png"> 
+
 Ce script vous permettra de protéger votre site web contre les attaques d'aspirateurs de site web our éviter les plagiats (comme le logiciel le plus connus qui est HTTrack).
 
 Pour les fichiers en .PHP, inclure ceci " include('protectionantiplagiat.php'); " juste après la balise " <?php " dans les pages souhaitées. Préférablement, dans config.php de votre site web.
