@@ -1,4 +1,4 @@
-# Anti-Web-Copier
+# Protection Anti plagiat
 
 Ce script vous permettra de protéger votre site web contre les attaques d'aspirateurs de site web (comme le logiciel le plus connus qui est HTTrack).
 
