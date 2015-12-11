@@ -31,7 +31,7 @@ $bannav = Array('HTTrack', 'HTTPClient', 'hors ligne', 'httpdown', 'Offline', 'P
 foreach ($bannav as $banned) {
     $comparaison = strstr($navigateur, $banned);
     if($comparaison!==false) {
-	    $write_this = 'information : '.$navigateur.' <br><br> ip :' . get_ip(); // Le texte que vous voulez avoir dans votre fichier antiwebcopier.txt
+	    $write_this = 'information : '.$navigateur.'' . get_ip(); // Le texte que vous voulez avoir dans votre fichier antiwebcopier.txt
 		$tentative++;
 	}
 }
@@ -40,7 +40,7 @@ if($tentative > 0){
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 
-	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donné projecthoneypot '.$navigateur.' <br><br> ip :' . get_ip(); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
+	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donné projecthoneypot '.$navigateur.'' ); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
 	die();
 }
