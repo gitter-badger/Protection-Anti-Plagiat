@@ -40,7 +40,7 @@ if($tentative > 0){
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 
-	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donné projecthoneypot '.$navigateur.'' ); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
+	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donnée de projecthoneypot '.$navigateur.''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
 	die();
 }
