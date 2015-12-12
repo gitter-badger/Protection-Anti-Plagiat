@@ -16,3 +16,4 @@ Mettre le fichier "protectionantiplagiatr.php" à la racine de votre site web. E
 * protectionantiplagiat v1.1 // Ajout de plusieur aspirateur dans $bannav = Array.
 * protectionantiplagiat v1.2 // Ajout de l'extension .cnx + auto instalation.
 * protectionantiplagiat v1.3 // Ajout des informations '.$navigateur.' '.get_ip().' que l'utilisateur verra dans les fichiers voler.
+* protectionantiplagiat v1.4 // Ajout notification via email.
