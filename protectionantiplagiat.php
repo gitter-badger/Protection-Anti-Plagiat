@@ -1,7 +1,6 @@
 <?php
 /*!
- * protectionantiplagiat init v1.0
- * protectionantiplagiat v1.3
+ * antiwebcopier init v1.0
  * Dev: NuggaN85
  * Twitter: @NuggaN85
  * Copyright 2015 © NuggaN85. All rights reserved.
@@ -35,10 +34,10 @@ foreach ($bannav as $banned) {
 	}
 }
 if($tentative > 0){
-	$write_here = fopen("protectionantiplagiat.cnx", "a"); // Fichier cnx auto inclus a la racine avec le antiwebcopier.php
+	$write_here = fopen("protectionantiplagiat.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
-	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donnée de projecthoneypot '.$navigateur.''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
+	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donnée de projecthoneypot <br><br> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
 	die();
 }
