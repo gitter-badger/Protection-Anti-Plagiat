@@ -23,3 +23,9 @@ Y compris à partir de la racine:
    $path .= "../../protectionantiplagiat.php";
    include_once($path);
 ?>
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+* antiwebcopier init v1.0
+* antiwebcopier v1.1
+* antiwebcopier v1.2
