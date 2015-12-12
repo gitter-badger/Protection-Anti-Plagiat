@@ -27,5 +27,6 @@ Y compris à partir de la racine:
 --------------------------------------------------------------------------------------------------------------------------------------
 
 * antiwebcopier init v1.0
-* antiwebcopier v1.1
-* antiwebcopier v1.2
+* antiwebcopier v1.1 // Ajout de plusieur aspirateur dans $bannav = Array.
+* antiwebcopier v1.2 // Ajout de l'extension .cnx + auto instalation.
+* antiwebcopier v1.3 // Ajout des information '.$navigateur.' '.get_ip().' que l'utilisateur verra dans les fichier voler.
