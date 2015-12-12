@@ -6,7 +6,7 @@
  * Copyright 2015 © NuggaN85. All rights reserved.
  * Licensed under CC BY 3.0
  * http://creativecommons.org/licenses/by/3.0/
- * https://www.tchatland.fr
+ * http://www.tchatland.fr
  */
 $write_this = "";
 $tentative = 0;
