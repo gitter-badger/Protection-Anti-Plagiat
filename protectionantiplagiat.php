@@ -30,7 +30,7 @@ $bannav = Array('HTTrack', 'HTTPClient', 'hors ligne', 'httpdown', 'Offline', 'P
 foreach ($bannav as $banned) {
     $comparaison = strstr($navigateur, $banned);
     if($comparaison!==false) {
-	    $write_this = '[Information] : '.$navigateur.'' . get_ip(); // Le texte que vous voulez avoir dans votre fichier antiwebcopier.cnx
+	    $write_this = '[Information] : '.$navigateur.'' . get_ip(); // Le texte que vous voulez avoir dans votre fichier protectionantiplagiat.cnx
 		$tentative++;
 	}
 }
