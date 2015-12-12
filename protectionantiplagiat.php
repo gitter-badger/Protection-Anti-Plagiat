@@ -1,9 +1,9 @@
 <?php
 /*!
- * protectionantiplagiat init v1.0
+ * antiwebcopier init v1.0
  * Dev: NuggaN85
  * Twitter: @NuggaN85
- * Copyright 2015 © NuggaN85. All rights reserved.
+ * Copyright © 2015 All rights reserved.
  * Licensed under CC BY 3.0
  * http://creativecommons.org/licenses/by/3.0/
  * http://www.tchatland.fr
@@ -19,6 +19,18 @@ function get_ip() {
 	elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
 		return $_SERVER['HTTP_X_FORWARDED_FOR'];
 	}
+	// test 1
+	elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
+		return $_SERVER['HTTP_X_FORWARDED'];
+	}
+	// test 2
+	elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
+		return $_SERVER['HTTP_FORWARDED_FOR'];
+	}
+	// test 3
+	elseif (isset($_SERVER['HTTP_FORWARDED'])) {
+		return $_SERVER['HTTP_FORWARDED'];
+	}
 	// Sinon : IP normale
 	else {
 		return (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '');
@@ -29,16 +41,22 @@ $bannav = Array('HTTrack', 'HTTPClient', 'hors ligne', 'httpdown', 'Offline', 'P
 foreach ($bannav as $banned) {
     $comparaison = strstr($navigateur, $banned);
     if($comparaison!==false) {
-	    $write_this = '[Information] : '.$navigateur.'' . get_ip(); // Le texte que vous voulez avoir dans votre fichier protectionantiplagiat.cnx
+	    $write_this = '[Information] : '.$navigateur.'' . get_ip(); // Le texte que vous voulez avoir dans votre fichier stop.cnx
 		$tentative++;
 	}
 }
 if($tentative > 0){
-	$write_here = fopen("protectionantiplagiat.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
+	$write_here = fopen("stop.cnx", "a"); // Fichier cnx auto inclus a la racine avec le stop.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donnée de projecthoneypot <br><br> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
-	die();
+	//Notification emails
+	$headers ='From: noreply@protection-anti-plagiat.com'."\n";
+        $headers .='Content-Type: text/plain; charset="iso-8859-1"'."\n";
+        $headers .='Content-Transfer-Encoding: 8bit';
+        mail('votre email', '[protection-anti-plagiat]', '[Information] : '.$navigateur.'' . get_ip(), $headers);
+
+    die();
 }
 ?>
