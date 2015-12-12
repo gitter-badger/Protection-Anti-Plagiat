@@ -8,27 +8,7 @@ Pour les fichiers .HTML, mettre ceci " <?php include('protectionantiplagiat.php'
 
 Mettre le fichier "protectionantiplagiatr.php" à la racine de votre site web. Exemple de dossier : (public_html) ou (www), un autre fichier "protectionantiplagiat.cnx" va s'inclure automatiquement a la racine avec votre fichier "protectionantiplagiat.php" celui ci va imprimer tout les fraudeur qui tente d'aspirer votre site web.
 
---------------------------------------------------------------------------------------------------------------------------------------
-
-# Les includes
-
-Peut être utilisé à plusieurs reprises:
-
-<?php include("protectionantiplagiat.php"); ?> //recommandation
-
-Une fois seulement:
-
-<?php include_once("protectionantiplagiat.php"); ?>
-
-Y compris à partir de la racine:
-
-<?php
-   $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "../../protectionantiplagiat.php";
-   include_once($path);
-?>
-
---------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 # Versions update
 
