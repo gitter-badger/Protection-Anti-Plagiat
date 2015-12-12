@@ -29,4 +29,4 @@ Y compris à partir de la racine:
 * protectionantiplagiat init v1.0 <img src="http://image.noelshack.com/fichiers/2015/50/1449924925-beta-1.png">
 * protectionantiplagiat v1.1 // Ajout de plusieur aspirateur dans $bannav = Array.
 * protectionantiplagiat v1.2 // Ajout de l'extension .cnx + auto instalation.
-* protectionantiplagiat v1.3 // Ajout des information '.$navigateur.' '.get_ip().' que l'utilisateur verra dans les fichiers voler.
+* protectionantiplagiat v1.3 // Ajout des informations '.$navigateur.' '.get_ip().' que l'utilisateur verra dans les fichiers voler.
