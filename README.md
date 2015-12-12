@@ -26,6 +26,8 @@ Y compris à partir de la racine:
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
+# Versions update
+
 * protectionantiplagiat init v1.0 <img src="http://image.noelshack.com/fichiers/2015/50/1449924925-beta-1.png">
 * protectionantiplagiat v1.1 // Ajout de plusieur aspirateur dans $bannav = Array.
 * protectionantiplagiat v1.2 // Ajout de l'extension .cnx + auto instalation.
