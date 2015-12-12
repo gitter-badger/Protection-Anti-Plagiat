@@ -10,7 +10,7 @@ Mettre le fichier "protectionantiplagiatr.php" à la racine de votre site web. E
 
 Peut être utilisé à plusieurs reprises:
 
-<?php include("protectionantiplagiat.php"); ?>//recommandation
+<?php include("protectionantiplagiat.php"); ?> //recommandation
 
 Une fois seulement:
 
