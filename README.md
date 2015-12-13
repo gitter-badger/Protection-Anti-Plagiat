@@ -19,3 +19,5 @@ Mettre le fichier "protectionantiplagiatr.php" à la racine de votre site web. E
 * protectionantiplagiat v1.4 // Ajout notification via email.
 * protectionantiplagiat v1.5 // Amélioration de la fonction notification email.
 * protectionantiplagiat v1.6 // Ajout des imformations '.$navigateur.'' . get_ip() dans la notification email.
+
+<a href="http://www.copyscape.com/"><img src="http://banners.copyscape.com/img/copyscape-seal-gray-120x100.png" width="120" height="100" border="0" alt="Protected by Copyscape" title="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." /></a>
