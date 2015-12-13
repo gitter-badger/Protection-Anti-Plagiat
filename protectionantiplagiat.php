@@ -6,7 +6,7 @@
  * Copyright © 2015 All rights reserved.
  * Licensed under CC BY 3.0
  * http://creativecommons.org/licenses/by/3.0/
- * http://www.tchatland.fr
+ * https://github.com/NuggaN85/Protection-Anti-Plagiat
  */
 function get_ip() {
 	// IP si internet partagé
