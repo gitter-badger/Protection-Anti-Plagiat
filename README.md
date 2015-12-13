@@ -12,7 +12,7 @@ Mettre le fichier "protectionantiplagiatr.php" à la racine de votre site web. E
 
 # Versions update
 
-* protectionantiplagiat init v1.0 <img src="http://image.noelshack.com/fichiers/2015/50/1449924925-beta-1.png">
+* protectionantiplagiat init v1.0 <img src="http://image.noelshack.com/fichiers/2015/50/1450015692-687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35302f313434393932343932352d626574612d312e706e67.png">
 * protectionantiplagiat v1.1 // Ajout de plusieur aspirateur dans $bannav = Array.
 * protectionantiplagiat v1.2 // Ajout de l'extension .cnx + auto instalation.
 * protectionantiplagiat v1.3 // Ajout des informations '.$navigateur.' '.get_ip().' que l'utilisateur verra dans les fichiers voler.
