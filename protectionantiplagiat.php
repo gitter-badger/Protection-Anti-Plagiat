@@ -8,8 +8,6 @@
  * http://creativecommons.org/licenses/by/3.0/
  * http://www.tchatland.fr
  */
-$write_this = "";
-$tentative = 0;
 function get_ip() {
 	// IP si internet partagé
 	if (isset($_SERVER['HTTP_CLIENT_IP'])) {
