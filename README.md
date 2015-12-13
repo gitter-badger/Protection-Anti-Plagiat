@@ -8,7 +8,9 @@ Pour les fichiers .HTML, mettre ceci " <?php include('protectionantiplagiat.php'
 
 Mettre le fichier "protectionantiplagiatr.php" à la racine de votre site web. Exemple de dossier : (public_html) ou (www), un autre fichier "protectionantiplagiat.cnx" va s'inclure automatiquement a la racine avec votre fichier "protectionantiplagiat.php" celui ci va imprimer tout les fraudeurs qui tente d'aspirer votre site web.
 
------------------------------------------------------------------------------------------------------------------------------------------
+<img src="http://image.noelshack.com/fichiers/2015/50/1450033318-page-php-128.png"> <img src="http://image.noelshack.com/fichiers/2015/50/1450033318-page-html-128.png"> <img src="http://image.noelshack.com/fichiers/2015/50/1450033318-shield-128.png">
+
+--------------------------------------------------------------------------------------------------------------------------------------
 
 # Versions update
 
