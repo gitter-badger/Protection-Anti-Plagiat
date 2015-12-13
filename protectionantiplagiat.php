@@ -51,11 +51,12 @@ if($tentative > 0){
 	fclose($write_here);
 	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donnée de projecthoneypot <br><br> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
-	//Notification emails
-	$headers ='From: noreply@protection-anti-plagiat.com'."\n";
-        $headers .='Content-Type: text/plain; charset="iso-8859-1"'."\n";
-        $headers .='Content-Transfer-Encoding: 8bit';
-        mail('votre email', '[protection-anti-plagiat]', '[Information] : '.$navigateur.'' . get_ip(), $headers);
+    //Notification emails
+    $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
+    $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
+    $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
+    $headers .= 'Content-type: text/html; charset=charset=UTF-8' . "\r\n";
+    mail('votre email', '[protection-anti-plagiat]', '[Information] : '.$navigateur.'' . get_ip(), $headers);
 
     die();
 }
