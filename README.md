@@ -18,3 +18,4 @@ Mettre le fichier "protectionantiplagiatr.php" à la racine de votre site web. E
 * protectionantiplagiat v1.3 // Ajout des informations '.$navigateur.' '.get_ip().' que l'utilisateur verra dans les fichiers voler.
 * protectionantiplagiat v1.4 // Ajout notification via email.
 * protectionantiplagiat v1.5 // Amélioration de la fonction notification email.
+* protectionantiplagiat v1.6 // Ajout '.$navigateur.'' . get_ip() dans la notification email.
