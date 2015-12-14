@@ -1,4 +1,4 @@
-# Protection Anti Plagiat <img src="http://image.noelshack.com/fichiers/2015/50/1450015641-687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35302f313434393837313037322d736865696c642d69636f6e2e706e67.png">
+# Protection Anti Plagiat <img src="http://image.noelshack.com/fichiers/2015/51/1450103550-sheild.png">
 
 Ce script vous permettra de protéger votre site web contre les attaques d'aspirateurs de site web our éviter les plagiats (comme le logiciel le plus connus qui est HTTRACK).
 
