@@ -2,11 +2,10 @@
 /*!
  * protectionantiplagiat init v1.0
  * Dev: NuggaN85
+ * Ghitub: NuggaN85
  * Twitter: @NuggaN85
  * Copyright © 2015 All rights reserved.
  * Licensed under CC BY 3.0
- * http://creativecommons.org/licenses/by/3.0/
- * https://github.com/NuggaN85/Protection-Anti-Plagiat
  */
 function get_ip() {
 	// IP si internet partagé
