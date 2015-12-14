@@ -39,23 +39,23 @@ $bannav = Array('HTTrack', 'HTTPClient', 'hors ligne', 'httpdown', 'Offline', 'P
 foreach ($bannav as $banned) {
     $comparaison = strstr($navigateur, $banned);
     if($comparaison!==false) {
-	    $write_this = '[Information] : '.$navigateur.'' . get_ip(); // Le texte que vous voulez avoir dans votre fichier protectionantiplagiat.cnx
+	    $write_this = '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(); // Le texte que vous voulez avoir dans votre fichier protectionantiplagiat.cnx
 		$tentative++;
 	}
 }
 if($tentative > 0){
-	$write_here = fopen("protectionantiplagiat.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
+	$write_here = fopen("stop.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donnée de projecthoneypot <br><br> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
-    //Notification emails
+	//Notification emails
     $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
     $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
-    $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-    mail('votre email', '[protection-anti-plagiat]', '[Information] : '.$navigateur.'' . get_ip(), $headers);
+    $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
+    mail('rl.ludovic@gmail.com', '[protection-anti-plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
 
-    die();
+	die();
 }
 ?>
