@@ -24,5 +24,7 @@ Pour les fichiers en <img src="https://camo.githubusercontent.com/6579c91b9eb15b
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-http://image.noelshack.com/fichiers/2015/51/1450105475-screenshot-2.png
-http://image.noelshack.com/fichiers/2015/51/1450105475-screenshot-1.png
+# Screenshot d'exemple d'attaques d'aspirateur
+
+<img src="http://image.noelshack.com/fichiers/2015/51/1450105475-screenshot-2.png">
+<img src="http://image.noelshack.com/fichiers/2015/51/1450105475-screenshot-1.png">
