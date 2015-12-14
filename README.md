@@ -5,7 +5,7 @@ Ce script vous permettra de protéger votre site web contre les attaques d'aspir
 Mettre le fichier "protectionantiplagiatr.php" à la racine de votre site web. Exemple de dossier : (public_html) ou (www), un autre fichier "protectionantiplagiat.cnx" va s'inclure automatiquement a la racine avec votre fichier "protectionantiplagiat.php" celui ci va imprimer tout les fraudeurs qui tente d'aspirer votre site web.
 
 <strong>Attention !</strong>
-Pour les fichiers en <img src="https://camo.githubusercontent.com/25cd284836114e790bc758cfe653dde1116bff5a/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35302f313435303033333534362d7068702e706e67">, inclure ceci " include('protectionantiplagiat.php'); " juste après la balise " <?php " dans les pages souhaitées. Préférablement, dans config.php de votre site web.
+Pour les fichiers en <img src="https://camo.githubusercontent.com/25cd284836114e790bc758cfe653dde1116bff5a/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35302f313435303033333534362d7068702e706e67">, inclure ceci " include('protectionantiplagiat.php'); " juste après la balise " <?php " dans les pages souhaitées. Préférablement, dans <strongconfig.php</strong de votre site web.
 
 <strong>Attention !</strong>
 Pour les fichiers en <img src="https://camo.githubusercontent.com/6579c91b9eb15b56a20e6b5d9f8b40493cdbde6d/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35302f313435303033333534362d68746d6c2e706e67">, mettre ceci " <?php include('protectionantiplagiat.php'); ?> " avant la balise " <!DOCTYPE html> dans les pages souhaitées de votre site web.
