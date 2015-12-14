@@ -49,7 +49,7 @@ if($tentative > 0){
 	fclose($write_here);
 	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donnée de projecthoneypot <br><br> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
-	//Notification emails
+    //Notification emails
     $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
     $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
