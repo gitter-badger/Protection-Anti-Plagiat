@@ -11,7 +11,7 @@ Pour les fichiers en <strong>php</strong>, inclure ceci " include('protectionant
 Pour les fichiers en <strong>html</strong>, mettre ceci " <?php include('protectionantiplagiat.php'); ?> " avant la balise " <!DOCTYPE html> dans les pages souhaitées de votre site web.
 
 <strong>Attention !</strong>
-Mettre le bannav.json avec votre fichier protectionantiplagiat.php a la racine de votre site web.
+Mettre le <strong>bannav.json</strong> avec votre fichier <strong>protectionantiplagiat.php</strong> a la racine de votre site web.
   
 --------------------------------------------------------------------------------------------------------------------------------------
 
