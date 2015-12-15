@@ -53,7 +53,7 @@ if($tentative > 0){
     $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
     $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
-    mail('Votre Email', '[protection-anti-plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
+    mail('Votre Email', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
 
 	die();
 }
