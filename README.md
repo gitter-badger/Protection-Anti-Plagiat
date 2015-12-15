@@ -22,7 +22,7 @@ Pour les fichiers en <img src="https://camo.githubusercontent.com/6579c91b9eb15b
 * protectionantiplagiat v1.5 // Amélioration de la fonction notification email.
 * protectionantiplagiat v1.6 // Ajout des imformations '.$navigateur.'' . get_ip() dans la notification email.
 * protectionantiplagiat v1.7 // Bug fix $comparaison
-* 
+
 <a href="http://www.copyscape.com/"><img src="http://banners.copyscape.com/img/copyscape-banner-white-200x25.png" width="200" height="25" border="0" alt="Protected by Copyscape" title="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." /></a>
 
 --------------------------------------------------------------------------------------------------------------------------------------
