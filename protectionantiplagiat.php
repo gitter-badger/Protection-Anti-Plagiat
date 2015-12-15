@@ -55,7 +55,7 @@ if($tentative > 0){
 }
 
 if($tentative > count($bannav)-1){
-	$write_here = fopen("stop.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
+	$write_here = fopen("protectionantiplagiat.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information serons automatiquement bannies sur la base de donnée de projecthoneypot <br /><br /> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
@@ -65,7 +65,7 @@ if($tentative > count($bannav)-1){
     $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
     $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
-    mail('rl.ludovic@gmail.com', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
+    mail('VOTRE EMAIL', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
 	
 	die();
 }
