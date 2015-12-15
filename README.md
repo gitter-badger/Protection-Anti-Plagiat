@@ -25,6 +25,8 @@ Pour les fichiers en <img src="https://camo.githubusercontent.com/6579c91b9eb15b
 
 <a href="http://www.copyscape.com/"><img src="http://banners.copyscape.com/img/copyscape-banner-white-200x25.png" width="200" height="25" border="0" alt="Protected by Copyscape" title="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." /></a>
 
+<a href="https://www.paypal.me/LudovicRose"><img src="http://image.noelshack.com/fichiers/2015/51/1450176966-paypal.png" width="200" height="25" border="0" alt="Donation Paypal" /></a>
+
 --------------------------------------------------------------------------------------------------------------------------------------
 
 # Screenshot d'exemple d'attaques d'aspirateur
