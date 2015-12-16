@@ -12,6 +12,9 @@ Pour les fichiers en <strong>html</strong>, mettre ceci " <?php include('protect
 
 <strong>Attention !</strong>
 Mettre le <strong>bannav.json</strong> avec votre fichier <strong>protectionantiplagiat.php</strong> a la racine de votre site web.
+
+<strong>Attention !</strong>
+Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un futur update.
   
 --------------------------------------------------------------------------------------------------------------------------------------
 
