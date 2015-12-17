@@ -25,6 +25,7 @@ elseif (preg_match("#Nokia#", $_SERVER["HTTP_USER_AGENT"]))
 {
 	$navigateur = 'Nokia';
 }
+
 elseif (preg_match("#Safari#", $_SERVER["HTTP_USER_AGENT"]))
 {
 	$navigateur = 'Safari';
