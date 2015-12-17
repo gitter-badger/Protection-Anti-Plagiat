@@ -60,12 +60,13 @@ if($tentative > count($bannav)-1){
 	fclose($write_here);
 	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information serons automatiquement bannies sur la base de donnée de projecthoneypot <br /><br /> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
-    //Notification emails
+    // Notification emails
     $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
     $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
     $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
-    mail('VOTRE EMAIL', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
+    // Retirer les 2 // avant mail pour commencer a recevoir des notification.
+    //mail('VOTRE EMAIL', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
 	
 	die();
 }
