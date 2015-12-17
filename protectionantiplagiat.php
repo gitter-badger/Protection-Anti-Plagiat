@@ -65,7 +65,7 @@ if($tentative > count($bannav)-1){
     $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
     $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
-    // Retirer les 2 // avant mail pour commencer a recevoir des notification \\
+    // Retirer les 2 // avant mail ci dessous pour commencer a recevoir des notifications \\
     //mail('VOTRE EMAIL', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
 	
 	die();
