@@ -12,5 +12,10 @@
 	"10" : "ia_archiver",
 	"11" : "meanpathbot",
 	"12" : "Baiduspider",
-	"13" : "YandexBot"
+	"13" : "YandexBot",
+	"14" : "Qwantify",
+	"15" : "ExaBot",
+	"16" : "DuckDuckBot",
+	"17" : "OrangeBot",
+	"18" : "Slurp"
 }
