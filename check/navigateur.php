@@ -1,5 +1,3 @@
-function $navigateur() {
-
 if (preg_match_all("#Opera (.*)(\[[a-z]{2}\];)?$#isU", $_SERVER["HTTP_USER_AGENT"], $version))
 {
 	$navigateur = 'Opéra ' . $version[1][0];
