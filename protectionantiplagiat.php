@@ -13,27 +13,27 @@ $bannav = json_decode($json, true);
 $tentative = 0;
 
 function get_ip() {
-	// IP internet partagé
+	// IP internet partagé \\
 	if (isset($_SERVER['HTTP_CLIENT_IP'])) {
 		return $_SERVER['HTTP_CLIENT_IP'];
 	}
-	// IP derrière un proxy
+	// IP derrière un proxy \\
 	elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
 		return $_SERVER['HTTP_X_FORWARDED_FOR'];
 	}
-	// test 1
+	// test 1 \\
 	elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
 		return $_SERVER['HTTP_X_FORWARDED'];
 	}
-	// test 2
+	// test 2 \\
 	elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
 		return $_SERVER['HTTP_FORWARDED_FOR'];
 	}
-	// test 3
+	// test 3 \\
 	elseif (isset($_SERVER['HTTP_FORWARDED'])) {
 		return $_SERVER['HTTP_FORWARDED'];
 	}
-	// IP normale
+	// IP normale \\
 	else {
 		return (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '');
 	}
@@ -60,12 +60,12 @@ if($tentative > count($bannav)-1){
 	fclose($write_here);
 	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information serons automatiquement bannies sur la base de donnée de projecthoneypot <br /><br /> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
-    // Notification emails
+    // Notification emails \\
     $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
     $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
     $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
-    // Retirer les 2 // avant mail pour commencer a recevoir des notification.
+    // Retirer les 2 // avant mail pour commencer a recevoir des notification \\
     //mail('VOTRE EMAIL', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
 	
 	die();
