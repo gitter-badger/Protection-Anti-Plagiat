@@ -1,8 +1,16 @@
-
 {
 	"0" : "Trident",
 	"1" : "Safari",
 	"2" : "Firefox",
 	"3" : "Chrome",
-	"4" : "Opera"
+	"4" : "Opera",
+	"5" : "Edge",
+	"6" : "bingbot",
+	"7" : "Venez",
+	"8" : "Googlebot",
+	"9" : "facebookexternalhit",
+	"10" : "ia_archiver",
+	"11" : "meanpathbot",
+	"12" : "Baiduspider",
+	"13" : "YandexBot"
 }
