@@ -40,6 +40,6 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 # Screenshot d'exemple d'attaques d'aspirateur
 
 <img src="https://camo.githubusercontent.com/a281c4736a4674100b22b5cc457a847f1afacc53/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303137353131372d73637265656e73686f742d312e706e67">
-<img src="http://image.noelshack.com/fichiers/2015/51/1450437941-screenshot-1.png">
+<img src="https://camo.githubusercontent.com/bf66fa5781e4dddba350d80739a965d8e85f7dac/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303433373934312d73637265656e73686f742d312e706e67">
 <img src="http://image.noelshack.com/fichiers/2015/51/1450437951-screenshot-2.png">
 
