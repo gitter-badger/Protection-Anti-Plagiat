@@ -14,6 +14,9 @@ Pour les fichiers en <strong>html</strong>, mettre ceci " <?php include('protect
 Mettre le <strong>bannav.json</strong> avec votre fichier <strong>protectionantiplagiat.php</strong> a la racine de votre site web.
 
 <strong>Attention !</strong>
+Le <strong>bannav.json</strong> est une sort de whitelist, une liste déjà faite dedans ceci est les bots autorisée (bot d'indexation) tout le reste sera automatiquement bloquer part notre systéme. 
+
+<strong>Attention !</strong>
 Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un futur update.(include_once '/home/username/public_html/pap/protectionantiplagiat.php';)
   
 --------------------------------------------------------------------------------------------------------------------------------------
