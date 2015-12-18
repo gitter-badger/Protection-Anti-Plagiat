@@ -21,7 +21,7 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
   
 --------------------------------------------------------------------------------------------------------------------------------------
 
-# Versions update
+# Versions update <img src="https://camo.githubusercontent.com/fe2cb3af77c3290cd9437c142662cbd08bbbc027/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303130333535302d736865696c642e706e67">
 
 * protectionantiplagiat init v1.0
 * protectionantiplagiat v1.1 // Ajout de plusieur aspirateur dans $bannav = Array.
@@ -37,7 +37,7 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-# Screenshot d'exemple d'attaques d'aspirateur
+# Screenshot d'exemple d'attaques d'aspirateur <img src="https://camo.githubusercontent.com/fe2cb3af77c3290cd9437c142662cbd08bbbc027/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303130333535302d736865696c642e706e67">
 
 <img src="https://camo.githubusercontent.com/a281c4736a4674100b22b5cc457a847f1afacc53/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303137353131372d73637265656e73686f742d312e706e67">
 <img src="https://camo.githubusercontent.com/bf66fa5781e4dddba350d80739a965d8e85f7dac/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303433373934312d73637265656e73686f742d312e706e67">
