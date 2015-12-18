@@ -23,7 +23,7 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 
 # Versions update <img src="https://camo.githubusercontent.com/fe2cb3af77c3290cd9437c142662cbd08bbbc027/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303130333535302d736865696c642e706e67">
 
-* protectionantiplagiat init v1.0
+* protectionantiplagiat init v1.0 <img src="http://image.noelshack.com/fichiers/2015/51/1450455682-beta-1.png">
 * protectionantiplagiat v1.1 // Ajout de plusieur aspirateur dans $bannav = Array.
 * protectionantiplagiat v1.2 // Ajout de l'extension .cnx + auto instalation.
 * protectionantiplagiat v1.3 // Ajout des informations '.$navigateur.' '.get_ip().' que l'utilisateur verra dans les fichiers voler.
