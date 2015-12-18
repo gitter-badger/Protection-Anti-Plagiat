@@ -33,7 +33,7 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 * protectionantiplagiat v1.7 // Bug fix $comparaison
 * protectionantiplagiat v1.8 // Liste des bots aspirateur et $comparaison supprimer et remplacer par un bannav.json.
 
-<center><a target="_blank" href="http://www.copyscape.com/"><img src="http://banners.copyscape.com/img/copyscape-banner-white-200x25.png" width="200" height="25" border="0" alt="Protected by Copyscape" title="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." /></a> <a target="_blank" href="https://www.paypal.me/LudovicRose"><img src="http://image.noelshack.com/fichiers/2015/51/1450176966-paypal.png" width="200" height="25" border="0" alt="Donation Paypal" /></a></center>
+<center><a target="_blank" href="http://www.copyscape.com/"><img src="http://banners.copyscape.com/img/copyscape-banner-white-200x25.png" width="200" height="25" border="0" alt="Protected by Copyscape" title="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." /></a><a target="_blank" href="https://www.paypal.me/LudovicRose"><img src="http://image.noelshack.com/fichiers/2015/51/1450176966-paypal.png" width="200" height="25" border="0" alt="Donation Paypal" /></a></center>
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
