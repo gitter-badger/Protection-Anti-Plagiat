@@ -37,7 +37,7 @@ function validate_ip($ip)
 
 foreach ($bannav as $banned) {
 	if(!(strstr($navigateur, $banned))){
-		$write_this = '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(); // Le texte que vous voulez avoir dans votre fichier protectionantiplagiat.cnx
+		$write_this = '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip_address(); // Le texte que vous voulez avoir dans votre fichier protectionantiplagiat.cnx
 		$tentative++;
 	}
 	else if(strstr($navigateur, $banned)){
@@ -54,7 +54,7 @@ if($tentative > count($bannav)-1){
 	$write_here = fopen("protectionantiplagiat.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
-	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information serons automatiquement bannies sur la base de donnée de projecthoneypot <br /><br /> [Information] : '.$navigateur.' '.get_ip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
+	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information serons automatiquement bannies sur la base de donnée de projecthoneypot <br /><br /> [Information] : '.$navigateur.' '.get_ip_address().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
     // Notification emails \\
     $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
@@ -62,7 +62,7 @@ if($tentative > count($bannav)-1){
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
     $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
     // Retirer les 2 // avant mail ci dessous pour commencer a recevoir des notifications \\
-    //mail('VOTRE EMAIL', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip(), $headers);
+    //mail('VOTRE EMAIL', '[Protection-Anti-Plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip_address(), $headers);
 	
 	die();
 }
