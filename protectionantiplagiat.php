@@ -17,7 +17,7 @@ function get_ip_address() {
     foreach ($ip_keys as $key) {
         if (array_key_exists($key, $_SERVER) === true) {
             foreach (explode(',', $_SERVER[$key]) as $ip) {
-                $ip = trim($ip);               
+                $ip = trim($ip);              
                 if (validate_ip($ip)) {
                     return $ip;
                 }
@@ -33,6 +33,7 @@ function validate_ip($ip)
         return false;
     }
     return true;
+  }
 }
 
 foreach ($bannav as $banned) {
