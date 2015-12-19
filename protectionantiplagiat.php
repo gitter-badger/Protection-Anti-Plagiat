@@ -1,4 +1,12 @@
 <?php
+/*!
+ * protectionantiplagiat init v1.0
+ * Dev: NuggaN85
+ * Github: NuggaN85
+ * Twitter: @NuggaN85
+ * Copyright © 2015 All rights reserved.
+ * Licensed under CC BY 3.0
+ */
 function get_ip_address() {
     $ip_keys = array('HTTP_CLIENT_IP', 'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED', 'HTTP_X_CLUSTER_CLIENT_IP', 'HTTP_FORWARDED_FOR', 'HTTP_FORWARDED', 'REMOTE_ADDR');
     foreach ($ip_keys as $key) {
