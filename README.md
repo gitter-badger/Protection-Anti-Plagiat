@@ -11,7 +11,7 @@ Pour les fichiers en <strong>php</strong>, inclure ceci " include('protectionant
 Pour les fichiers en <strong>html</strong>, mettre ceci " <?php include('protectionantiplagiat.php'); ?> " avant la balise " <!DOCTYPE html> dans les pages souhaitées de votre site web.
 
 <strong>Attention !</strong>
-Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un futur update.(include_once '/home/username/public_html/pap/protectionantiplagiat.php';)
+Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un futur update.
   
 --------------------------------------------------------------------------------------------------------------------------------------
 
