@@ -11,12 +11,6 @@ Pour les fichiers en <strong>php</strong>, inclure ceci " include('protectionant
 Pour les fichiers en <strong>html</strong>, mettre ceci " <?php include('protectionantiplagiat.php'); ?> " avant la balise " <!DOCTYPE html> dans les pages souhaitées de votre site web.
 
 <strong>Attention !</strong>
-Mettre le <strong>bannav.json</strong> avec votre fichier <strong>protectionantiplagiat.php</strong> a la racine de votre site web.
-
-<strong>Attention !</strong>
-Le <strong>bannav.json</strong> est une sorte de whitelist, une liste déjà faite dedans ceci est les bots autorisée (bot d'indexation) tout le reste sera automatiquement bloquer part notre systéme. 
-
-<strong>Attention !</strong>
 Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un futur update.(include_once '/home/username/public_html/pap/protectionantiplagiat.php';)
   
 --------------------------------------------------------------------------------------------------------------------------------------
@@ -31,8 +25,6 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 * protectionantiplagiat v1.5 // Amélioration de la fonction notification email.
 * protectionantiplagiat v1.6 // Ajout des imformations '.$navigateur.'' . get_ip() dans la notification email.
 * protectionantiplagiat v1.7 // Bug fix $comparaison
-* protectionantiplagiat v1.8 // Liste des bots aspirateur et $comparaison supprimer et remplacer par un bannav.json.
-* protectionantiplagiat v1.9 // Optimisation function get_ip() + sécurité avec la function validate_ip($ip).
 
 <a target="_blank" href="http://www.copyscape.com/"><img src="http://banners.copyscape.com/img/copyscape-banner-white-200x25.png" width="200" height="25" border="0" alt="Protected by Copyscape" title="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." /></a> <a target="_blank" href="https://www.paypal.me/LudovicRose"><img src="https://camo.githubusercontent.com/bfb76a1ed98dc39e715b62c6f2aa032d1a2765d7/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303137363936362d70617970616c2e706e67" width="200" height="25" border="0" alt="Donation Paypal" /></a>
 
