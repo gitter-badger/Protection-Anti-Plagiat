@@ -12,35 +12,27 @@ $navigateur = $_SERVER["HTTP_USER_AGENT"];
 $bannav = json_decode($json, true);
 $tentative = 0;
 
-function get_ip() {
-	// IP internet partagé \\
-	if (isset($_SERVER['HTTP_CLIENT_IP'])) {
-		return $_SERVER['HTTP_CLIENT_IP'];
-	}
-	// IP derrière un proxy \\
-	elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-		return $_SERVER['HTTP_X_FORWARDED_FOR'];
-	}
-	// test 1 \\
-	elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
-		return $_SERVER['HTTP_X_FORWARDED'];
-	}
-	// test 2 \\
-	elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
-		return $_SERVER['HTTP_FORWARDED_FOR'];
-	}
-	// test 3 \\
-	elseif (isset($_SERVER['HTTP_FORWARDED'])) {
-		return $_SERVER['HTTP_FORWARDED'];
-	}
-	// test 4 \\
-	elseif (isset($_SERVER['HTTP_X_CLUSTER_CLIENT_IP'])) {
-		return $_SERVER['HTTP_X_CLUSTER_CLIENT_IP'];
-	}
-	// IP normale \\
-	else {
-		return (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '');
-	}
+function get_ip_address() {
+    $ip_keys = array('HTTP_CLIENT_IP', 'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED', 'HTTP_X_CLUSTER_CLIENT_IP', 'HTTP_FORWARDED_FOR', 'HTTP_FORWARDED', 'REMOTE_ADDR');
+    foreach ($ip_keys as $key) {
+        if (array_key_exists($key, $_SERVER) === true) {
+            foreach (explode(',', $_SERVER[$key]) as $ip) {
+                $ip = trim($ip);               
+                if (validate_ip($ip)) {
+                    return $ip;
+                }
+            }
+        }
+    }
+    return isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : false;
+}
+
+function validate_ip($ip)
+{
+    if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4 | FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) === false) {
+        return false;
+    }
+    return true;
 }
 
 foreach ($bannav as $banned) {
