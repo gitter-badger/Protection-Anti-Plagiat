@@ -33,6 +33,10 @@ function get_ip() {
 	elseif (isset($_SERVER['HTTP_FORWARDED'])) {
 		return $_SERVER['HTTP_FORWARDED'];
 	}
+	// test 4 \\
+	elseif (isset($_SERVER['HTTP_X_CLUSTER_CLIENT_IP'])) {
+		return $_SERVER['HTTP_X_CLUSTER_CLIENT_IP'];
+	}
 	// IP normale \\
 	else {
 		return (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '');
