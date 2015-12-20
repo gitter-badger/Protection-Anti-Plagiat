@@ -1,5 +1,6 @@
 <?php
 include('../check/check.cnx');
+include('../check/copyright.js');
 /*!
  * protectionantiplagiat init v1.0
  * Dev: NuggaN85
