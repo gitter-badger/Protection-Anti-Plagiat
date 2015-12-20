@@ -1,6 +1,13 @@
 <?php
 include('../check/check.cnx');
 include('../check/copyright.js');
+
+$filename = '../check/copyright.js';
+if (file_exists($filename)) {
+	return false;
+}
+    return true;
+  }
 /*!
  * protectionantiplagiat init v1.0
  * Dev: NuggaN85
