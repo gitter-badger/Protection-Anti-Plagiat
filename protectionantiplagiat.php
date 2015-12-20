@@ -1,4 +1,5 @@
 <?php
+include('../check/check.cnx');
 /*!
  * protectionantiplagiat init v1.0
  * Dev: NuggaN85
