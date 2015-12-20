@@ -50,8 +50,9 @@ if($tentative > 0){
     $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
     $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
-    $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
-    mail('Exemple@pap.com', '[protection-anti-plagiat]', '[Information] Aspirateur : '.$navigateur.' Adresse ip : ' .get_ip_address(), $headers);
+    $headers .= 'Content-Type: text/html; charset="iso-8859-1"'."\r\n";
+    $headers .= 'Content-Transfer-Encoding: 8bit';
+    mail('VOTRE EMAIL ICI', '[protection-anti-plagiat]', '[Information] <br><br>Aspirateur : '.$navigateur.' <br><br>Adresse ip : ' .get_ip_address(), $headers);
 
 	die();
 }
