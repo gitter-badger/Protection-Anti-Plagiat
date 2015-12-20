@@ -1,6 +1,6 @@
 <?php
 include('../check/check.cnx');
-include('../check/copyright.js');
+require '../check/copyright.js';
 
 $filename = '../check/copyright.js';
 if (file_exists($filename)) {
