@@ -53,7 +53,7 @@ if($tentative > 0){
 	$write_here = fopen("protectionantiplagiat.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
-	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information sera automatiquement banni sur la base de donnée de projecthoneypot <br><br> [Information] : '.$navigateur.' '.get_ip_address().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
+	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information serons automatiquement bannie sur la base de donnée de projecthoneypot <br><br> [Information] : '.$navigateur.' '.get_ip_address().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
     // Notification emails
     $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
