@@ -28,6 +28,7 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 * protectionantiplagiat v1.6 // Ajout des imformations '.$navigateur.'' .get_ip_address() dans la notification email.
 * protectionantiplagiat v1.7 // Bug fix $comparaison
 * protectionantiplagiat v1.8 // Optimisation de la function get_ip_address() + insertion d'une function validate_ip($ip)
+* protectionantiplagiat v1.9 // Ajout de la fonction $hostname
 
 <a target="_blank" href="http://www.copyscape.com/"><img src="http://banners.copyscape.com/img/copyscape-banner-white-200x25.png" width="200" height="25" border="0" alt="Protected by Copyscape" title="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." /></a> <a target="_blank" href="https://www.paypal.me/LudovicRose"><img src="https://camo.githubusercontent.com/bfb76a1ed98dc39e715b62c6f2aa032d1a2765d7/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303137363936362d70617970616c2e706e67" width="200" height="25" border="0" alt="Donation Paypal" /></a>
 
