@@ -1,6 +1,7 @@
 <?php
 //include('../check/check.cnx');
 //require '../check/copyright.js';
+
 //include __DIR__.'../check/check.cnx';
 //require __DIR__.'../check/copyright.js';
 
