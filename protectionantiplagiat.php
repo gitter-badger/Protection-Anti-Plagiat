@@ -2,9 +2,6 @@
 //include('../check/check.cnx');
 //require '../check/copyright.js';
 
-//include __DIR__.'../check/check.cnx';
-//require __DIR__.'../check/copyright.js';
-
 //$filename = '../check/copyright.js';
 //if (file_exists($filename)) {
 //	return false;
