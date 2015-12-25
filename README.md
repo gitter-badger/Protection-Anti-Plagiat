@@ -25,7 +25,7 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 * protectionantiplagiat v1.3 // Ajout des informations '.$navigateur.' '.getip().' que l'utilisateur verra dans les fichiers voler.
 * protectionantiplagiat v1.4 // Ajout notification via email.
 * protectionantiplagiat v1.5 // Amélioration de la fonction notification email.
-* protectionantiplagiat v1.6 // Ajout des imformations '.$navigateur.'' .getip_address() dans la notification email.
+* protectionantiplagiat v1.6 // Ajout des imformations '.$navigateur.'' .getip() dans la notification email.
 * protectionantiplagiat v1.7 // Bug fix $comparaison
 * protectionantiplagiat v1.8 // Optimisation de la function getip()
 * protectionantiplagiat v1.9 // Ajout de la fonction $hostname et curPageURL()
