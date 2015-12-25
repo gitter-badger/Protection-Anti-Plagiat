@@ -22,10 +22,10 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 * protectionantiplagiat init v1.0 <img src="https://camo.githubusercontent.com/56afb73a7cf51147fcce4e3524c21ff6f00ced82/687474703a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031352f35312f313435303435353638322d626574612d312e706e67">
 * protectionantiplagiat v1.1 // Ajout de plusieur aspirateur dans $bannav = Array.
 * protectionantiplagiat v1.2 // Ajout de l'extension .cnx + auto instalation.
-* protectionantiplagiat v1.3 // Ajout des informations '.$navigateur.' '.get_ip_address().' que l'utilisateur verra dans les fichiers voler.
+* protectionantiplagiat v1.3 // Ajout des informations '.$navigateur.' '.getip().' que l'utilisateur verra dans les fichiers voler.
 * protectionantiplagiat v1.4 // Ajout notification via email.
 * protectionantiplagiat v1.5 // Amélioration de la fonction notification email.
-* protectionantiplagiat v1.6 // Ajout des imformations '.$navigateur.'' .get_ip_address() dans la notification email.
+* protectionantiplagiat v1.6 // Ajout des imformations '.$navigateur.'' .getip_address() dans la notification email.
 * protectionantiplagiat v1.7 // Bug fix $comparaison
 * protectionantiplagiat v1.8 // Optimisation de la function getip()
 * protectionantiplagiat v1.9 // Ajout de la fonction $hostname et curPageURL()
