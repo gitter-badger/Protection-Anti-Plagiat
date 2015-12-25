@@ -36,7 +36,7 @@ function getip() {
     return $ipaddress;
 }
 //récuperation de l'url
-function curPageURL() {
+function geturl() {
     $pageURL = 'http';
     if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
         $pageURL .= "://";
@@ -71,7 +71,7 @@ if($tentative > 0){
     $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
     $headers .= 'Content-Type: text/html; charset="iso-8859-1"'."\r\n";
     $headers .= 'Content-Transfer-Encoding: 8bit';	
-    mail('VOTRE EMAIL', '[protection-anti-plagiat]', '[Information] <br><br>Aspirateur : '.$navigateur.' <br><br>Url : '.curPageURL().' <br><br>Host : '.$hostname.' <br><br>Adresse ip : ' .getip(), $headers);
+    mail('VOTRE EMAIL', '[protection-anti-plagiat]', '[Information] <br><br>Aspirateur : '.$navigateur.' <br><br>Url : '.geturl().' <br><br>Host : '.$hostname.' <br><br>Adresse ip : ' .getip(), $headers);
 
 	die();
 } 
