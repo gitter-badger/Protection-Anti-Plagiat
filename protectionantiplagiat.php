@@ -83,7 +83,7 @@ $headers .= 'Content-Type: text/html; charset="iso-8859-1"'."\r\n";
 $headers .= 'Content-Transfer-Encoding: 8bit';
 $destinataire .= 'VOTRE EMAIL';
 $sujet .= '[protection-anti-plagiat]';
-$message  = '[Information] <br><br>Aspirateur : '.$navigateur.' <br><br>Url : '.geturl().' <br><br>Host : '.$hostname.' <br><br>Adresse ip : '.getip().'';
+$message = '[Information] <br><br>Aspirateur : '.$navigateur.' <br><br>Url : '.geturl().' <br><br>Host : '.$hostname.' <br><br>Adresse ip : '.getip().'';
 if(mail($destinataire,$sujet,$message,$headers))
 	
 	die();
