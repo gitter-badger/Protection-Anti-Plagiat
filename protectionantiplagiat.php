@@ -60,20 +60,22 @@ foreach ($bannav as $banned) {
 }
 // récuperation des infos avec fichier auto écrit
 if($tentative > 0){
-	$write_here = fopen("protectionantiplagiat.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
+	$write_here = fopen("stop.cnx", "a"); // Fichier cnx auto inclus a la racine avec le protectionantiplagiat.php
 	fwrite($write_here, "\n" . $write_this);
 	fclose($write_here);
 	echo utf8_decode( '[Sécurité] Notre site web est protégé contre le vole et le spam, vos information serons automatiquement bannie sur la base de donnée de projecthoneypot <br><br> [Information] : '.$navigateur.' '.$hostname.' '.getip().''); // Le texte que vous voulez que le voleur recevra dans les fichiers télécharger
 	
     // Notification emails
-    $headers  = "From: <noreply@protection-anti-plagiat.com>\r\n";
-    $headers .= "Reply-To: noreply@protection-anti-plagiat.com\r\n";
-    $headers .= "Return-Path: noreply@protection-anti-plagiat.com\r\n";
+    $headers  = 'From: "PAP.COM" <noreply@protection-anti-plagiat.com>'."\r\n";
+    $headers .= 'Reply-To: noreply@protection-anti-plagiat.com'."\r\n";
+    $headers .= 'Return-Path: noreply@protection-anti-plagiat.com'."\r\n";
     $headers .= 'Content-Type: text/html; charset="iso-8859-1"'."\r\n";
-    $headers .= 'Content-Transfer-Encoding: 8bit';	
-    mail('VOTRE EMAIL', '[protection-anti-plagiat]', '[Information] <br><br>Aspirateur : '.$navigateur.' <br><br>Url : '.geturl().' <br><br>Host : '.$hostname.' <br><br>Adresse ip : ' .getip(), $headers);
-
+    $headers .= 'Content-Transfer-Encoding: 8bit';
+    $destinataire .= 'VOTRE EMAIL';
+    $sujet .= '[protection-anti-plagiat]';
+    $message  = '[Information] <br><br>Aspirateur : '.$navigateur.' <br><br>Url : '.geturl().' <br><br>Host : '.$hostname.' <br><br>Adresse ip : '.getip().'';
+if(mail($destinataire,$sujet,$message,$headers))
+	
 	die();
 } 
-
 ?>
