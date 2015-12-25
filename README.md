@@ -25,9 +25,9 @@ Supprimer le dossier <strong>check</strong> ceci est un dossier test pour un fut
 * protectionantiplagiat v1.3 // Ajout de l'extension .cnx + auto instalation.
 * protectionantiplagiat v1.4 // Ajout des informations '.$navigateur.' '.getip().' que l'utilisateur verra dans les fichiers voler.
 * protectionantiplagiat v1.5 // Optimisation de la function getip()
-* protectionantiplagiat v1.6 // Ajout de la fonction $hostname et curPageURL()
-* protectionantiplagiat v1.7 // Ajout notification via email.
-* protectionantiplagiat v1.8 // Amélioration de la fonction notification email.
+* protectionantiplagiat v1.6 // Ajout notification via email.
+* protectionantiplagiat v1.7 // Amélioration de la fonction notification email.
+* protectionantiplagiat v1.8 // Ajout de la fonction $hostname et curPageURL()
 * protectionantiplagiat v1.9 // Ajout des imformations '.$navigateur.'' .getip() $hostname et curPageURL() dans la notification email.
 * protectionantiplagiat v1.10 // Ajout des informations '.$navigateur.' '.getip().' et $hostname que l'utilisateur verra dans les fichiers voler.
 
